@@ -1,5 +1,5 @@
 ---
-- hosts: web
+- hosts: myserver
   tasks:
           - name: Update the system
             yum: name='*' state=latest
